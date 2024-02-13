@@ -26,6 +26,15 @@ public class SpringbootwebapiApplication {
 	}
 
 
+
+	@GetMapping("/update")
+	public String update() {
+
+		return "This API was updated today ";
+
+	}
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootwebapiApplication.class, args);
 	}
